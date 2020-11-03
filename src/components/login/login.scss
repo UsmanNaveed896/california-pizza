@@ -1,0 +1,59 @@
+.user-login{
+    box-shadow: 2px 3px 2px #faecec;
+    .user-login-inputs{
+        border:1px solid #dee2e6;
+        border-top:none;
+        padding-left: 34px;
+        .headings{
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        .user-form {
+            p{
+                font-size: 14px;
+                color: #da291c;
+                margin-top:15px;
+            }
+        }
+        input[type=text], select {
+            width: 100%;
+            padding: 36px 0px 5px 0px;
+            margin: 8px 0;
+            font-size: 14px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            display: inline-block;
+            border-bottom: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+          } 
+          input[type=submit] {
+            width: 25%;
+            background-color: #da291c;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }  
+          input[type=submit]:hover {
+            background-color:  #b82318;
+          }
+          .new-customer-login{
+            background-color: #f8f9fa;
+            padding:1.5rem;
+            height:100%;
+            .account{
+                color: #da291c;
+                border: 2px solid #da291c;
+                padding: 10px;
+                font-size: 12px;
+                font-weight:bold;
+            }
+          }
+    }
+}

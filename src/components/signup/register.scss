@@ -1,0 +1,58 @@
+.user-register{
+  box-shadow: 2px 3px 2px #faecec;
+    .user-inputs{
+      border:1px solid #dee2e6;
+      border-top:none;
+        padding-left: 34px;
+        .headings{
+            font-family: sans-serif;
+            font-size: 14px;
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+    }
+    textarea#lname {
+        /* border-bottom: red; */
+        width: 100%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        margin-top: 25px;
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 36px 0px 5px 0px;
+        margin: 8px 0;
+        font-size: 14px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        display: inline-block;
+        border-bottom: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+      }
+      
+      input[type=submit] {
+        width: 30%;
+        background-color: #da291c;
+        opacity:0.65;
+        font-size: 14px;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color:  #da291c;
+      }
+    //   CHECKBOXES
+    .checkbox label, .radio label {
+        font-size: 14px;
+    }
+}

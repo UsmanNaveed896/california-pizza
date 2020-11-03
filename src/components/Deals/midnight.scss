@@ -1,0 +1,36 @@
+    .Deals{
+        box-shadow: 2px 3px 2px #faecec;
+        padding-bottom: 4rem;
+        padding-left: 48px;
+        .deals-banners{
+            margin-top: 3rem;
+            .Product-Banners{
+                flex-wrap: wrap;
+                .product-A{
+                    padding-left: 9px!important;
+                    .product{
+                        width: 368px;
+                        padding: 5px;
+                        margin-top: 1rem;
+                        cursor: pointer;
+                    }
+                    .price-button{
+                        width: 368px;
+                        background-color: #70a401;
+                        border:1px solid  #70a401;
+                        color: white;
+                        font-family: united,fantasy;
+                        font-size: 16px;
+                        padding:10px;
+                    }
+                    .price-button:hover {
+                        background-color: #567e01;
+                    }
+                    p{
+                        width:257px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
