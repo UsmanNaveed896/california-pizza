@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../homepage/homepage.scss'
 import Img1 from '../../Assets/images/1.jpg'
 import Img2 from '../../Assets/images/2.jpg'
@@ -12,8 +12,12 @@ import Img9 from '../../Assets/images/3-e8ab56c-california-pizza.png'
 import Img10 from '../../Assets/images/1375609-Cheesy-Fries-6a1fcd5-california-pizza.jpg'
 import Img11 from '../../Assets/images/xs.png'
 import Img12 from '../../Assets/images/xs.jpg'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 export default () => {
+    useEffect(() => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }, [document.documentElement])
     return (
         <>
             <div className="homepage">
@@ -57,41 +61,41 @@ export default () => {
                             </a>
                         </div>
                         {/* BANNERS */}
-                            <div className="grid-banners row mt-5">
-                                <img className="banners" src={Img5} alt="cake" />
-                                <img className="banners" src={Img6} alt="number" />
-                                <img className="banners" src={Img7} alt="pepsi" />
-                            </div>
-                            <div className="grid-banners row">
+                        <div className="grid-banners row mt-5">
+                            <img className="banners" src={Img5} alt="cake" />
+                            <img className="banners" src={Img6} alt="number" />
+                            <img className="banners" src={Img7} alt="pepsi" />
+                        </div>
+                        <div className="grid-banners row">
                             <img className="bannersB" src={Img8} alt="cake" />
-                                <img className="bannersB" src={Img9} alt="number" />
-                            </div>
-                                <div className="featured-products mt-4" >
-                                    <h2>BEST SELLERS</h2>
-                                </div>
-                                {/* Product Banners */}
+                            <img className="bannersB" src={Img9} alt="number" />
+                        </div>
+                        <div className="featured-products mt-4" >
+                            <h2>BEST SELLERS</h2>
+                        </div>
+                        {/* Product Banners */}
 
-                                <div className="Product-Banners row">
-                                    <div className="product-A">
-                                    <img className="product" src={Img10} alt="chips" />
-                                    <h3>Cheesy Fries</h3>
-                                    <p>Fries Mixed with our home made & Yummy Dip Sauce & Cheddar Cheese. Topped with our ve...</p>
-                                    <button className="price-button">ADD PKR 499</button>
-                                    </div>
-                                    <div className="product-A">
-                                    <img className="product" src={Img11} alt="chips" />
-                                    <h3>California Strips</h3>
-                                    <p>Chicken Pieces breaded with homemade crumb, served with Garlic Mayo Sauce</p>
-                                    <button className="price-button">ADD PKR 499</button>
-                                    </div>
-                                    <div className="product-A">
-                                    <img className="product" src={Img12} alt="chips" />
-                                    <h3>Crispy Garlic Mayo Fries</h3>
-                                     <p>French Fries tossed in the best ever home made Garlic Mayo sauce from California Pizza.</p>
-                                    <button className="price-button">ADD PKR 499</button>
-                                    </div>
-                                </div>
-                    </div>            
+                        <div className="Product-Banners row">
+                            <div className="product-A">
+                                <img className="product" src={Img10} alt="chips" />
+                                <h3>Cheesy Fries</h3>
+                                <p>Fries Mixed with our home made & Yummy Dip Sauce & Cheddar Cheese. Topped with our ve...</p>
+                                <button className="price-button">ADD PKR 499</button>
+                            </div>
+                            <div className="product-A">
+                                <img className="product" src={Img11} alt="chips" />
+                                <h3>California Strips</h3>
+                                <p>Chicken Pieces breaded with homemade crumb, served with Garlic Mayo Sauce</p>
+                                <button className="price-button">ADD PKR 499</button>
+                            </div>
+                            <div className="product-A">
+                                <img className="product" src={Img12} alt="chips" />
+                                <h3>Crispy Garlic Mayo Fries</h3>
+                                <p>French Fries tossed in the best ever home made Garlic Mayo sauce from California Pizza.</p>
+                                <button className="price-button">ADD PKR 499</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

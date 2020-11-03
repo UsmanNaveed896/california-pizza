@@ -1,7 +1,8 @@
-div#myHeader {
+.header-main{
+    top: 0;
     background-color: white;
-    // position: absolute!important;
-    z-index: 444;
+    position: fixed;
+    z-index: 4444;
 }
 .header {
     padding:0;
@@ -14,7 +15,7 @@ div#myHeader {
                     a {
                         padding: 8px;
                         color: #da291c;
-                        font-size: 13px;
+                        font-size: 14px;
                         font-family: 'Roboto', sans-serif;
                     }
                 }
@@ -35,12 +36,6 @@ div#myHeader {
         border-top: 1px solid #dee2e6;
         li:hover  {background-color: #da291c!important; color:white!important;}
         li a:hover  { color:white!important;}
-        // .border{
-        //     width: 900px;
-        //     height: 5px;
-        //     background: red;
-        //     transition: width 2s;
-        // }
         ul:hover {
             width: 700px;
           }
@@ -66,7 +61,6 @@ div#myHeader {
                     display: inline-block;
                     .dropbtn {
                         border: none!important;
-                        // background-color: white;
                         margin-top: 5px;
                         color:rgb(80, 78, 78);
                       }
@@ -98,12 +92,6 @@ div#myHeader {
 i.fa.fa-angle-down {
     padding-left: 4px;
 }
-// #STICKY HEADER
-  .sticky {
-    position: fixed!important;
-    top: 0;
-    width: 100%;
-  }
 // #SIDENAV CSS
 .side-nav {
     h2 {
@@ -122,13 +110,6 @@ i.fa.fa-angle-down {
     }
     p {
         padding: 1.25rem;
-        font-size: 12.8px;
-    }
-    .icon {
-        height: 100%;
-        position: fixed;
-    }
-    .uvc {
-        position: absolute;
+        font-size: 13.5px;
     }
 }

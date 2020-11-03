@@ -18,7 +18,7 @@ import '../Deals/midnight.scss'
 export default () => {
     return (
         <>
-            <div className="Deals col-md-10 mt-5">
+            <div className="Deals col-md-10 ">
                 <div className="container deals-banners">
                 <h1>Pizza</h1>
                     <div className="Product-Banners row">
@@ -67,7 +67,7 @@ export default () => {
                         <div className="product-A">
                             <img className="product" src={Img8} alt="chips" />
                             <h3>Chicken Tikka</h3>
-                            <p >Chicken Tikka, Onions &amp; Mozzarella Cheese</p>
+                            <p >Chicken Tikka, Onions &amp; Mozzarella Cheese mozrilla..</p>
                             <button className="price-button">FROM PKR 499</button>
                         </div>
                         <div className="product-A">
@@ -91,7 +91,7 @@ export default () => {
                         <div className="product-A">
                             <img className="product" src={Img12} alt="chips" />
                             <h3>Chicken Supreme</h3>
-                            <p>Chicken Fajita, Chicken Tikka, Smoked Chicken, Capsicum, Onion, Mushrooms, Black Olives, &amp; Mozza...</p>
+                            <p>Chicken Fajita, Chicken Tikka, Smoked Chicken, Capsicum, Onion, Mushrooms, Black Olives..</p>
                             <button className="price-button">FROM PKR 499</button>
                         </div>
                         <div className="product-A">
@@ -103,7 +103,7 @@ export default () => {
                         <div className="product-A">
                             <img className="product" src={Img14} alt="chips" />
                             <h3>Super Supreme</h3>
-                            <p>Beef, Pepperoni, Smoked Chicken, Sausage, Onion, Green Pepper, Mushrooms, Black Olives, &amp; Mozare...</p>
+                            <p>Beef, Pepperoni, Smoked Chicken, Sausage, Onion, Green Pepper, Mushrooms, Black Olives.</p>
                             <button className="price-button">FROM PKR 499</button>
                         </div>
                         <div className="product-A">
