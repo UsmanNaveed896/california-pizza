@@ -5,6 +5,7 @@ import Img3 from '../../Assets//images/round3.jpg'
 import Img4 from '../../Assets//images/round4.jpg'
 import Img5 from '../../Assets//images/round5.jpg'
 import '../Deals/midnight.scss'
+import '../Deals/menuresponsive.scss'
 export default () => {
     return (
         <>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Img1 from '../../Assets//images/salad.jpg'
 import '../Deals/midnight.scss'
+import '../Deals/menuresponsive.scss'
 export default () => {
     return (
         <>

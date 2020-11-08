@@ -2,6 +2,7 @@ import React from 'react'
 import Img1 from '../../Assets//images/pasta.jpg'
 import Img2 from '../../Assets//images/lasagna.jpg'
 import '../Deals/midnight.scss'
+import '../Deals/menuresponsive.scss'
 export default () => {
     return (
         <>

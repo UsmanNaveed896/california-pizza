@@ -28,7 +28,7 @@
             .Product-Banners{
                 flex-wrap: wrap;
                 .product-A{
-                    padding-left: 9px!important;
+                    padding-left: 9px;
                     .product{
                         width: 368px;
                         padding: 5px;
@@ -59,4 +59,7 @@
                     }
         }
     }
+}
+.mobile-carusal{
+    display: none;
 }

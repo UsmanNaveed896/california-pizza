@@ -3,6 +3,7 @@ import Img1 from '../../Assets//images/xs (1).jpg'
 import Img2 from '../../Assets//images/xs (2).jpg'
 import Img3 from '../../Assets//images/xs (3).jpg'
 import '../Deals/midnight.scss'
+import '../Deals/menuresponsive.scss'
 export default () => {
     return (
         <>

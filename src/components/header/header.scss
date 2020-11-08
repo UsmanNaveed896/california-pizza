@@ -1,8 +1,13 @@
 .header-main{
     top: 0;
+    display: none;
     background-color: white;
     position: fixed;
     z-index: 4444;
+    display:block;
+}
+.header-mobile-view{
+    display: none;
 }
 .header {
     padding:0;
@@ -113,3 +118,120 @@ i.fa.fa-angle-down {
         font-size: 13.5px;
     }
 }
+
+
+                                            // MOBILE VIEW
+
+
+  /* Mobile Side bar */
+.brand-button{
+    font-size: 3rem;
+    padding:.5 rem;
+    background:none;
+    border:none;
+    color:#da291c;
+    cursor: pointer;
+  }
+  .sidebar{
+    overflow: scroll;
+    position: absolute;
+    z-index: 444;
+    width:30rem;
+    transition: all .5s;
+    transform: translateX(-30rem);
+    background-color: #f0f0f0;
+    height: 100%;
+    .close-button{
+        border-bottom: 1px solid black!important;
+        margin-top: 5rem;
+    }
+    .sidebar-options{
+        ul{
+            padding: 0;
+           li{
+            color:black;
+            font-size: 14px;
+            padding:8px;
+            list-style-type: none;
+            font-weight: 600;
+            a{
+                color: black;
+                padding-left: 10px;
+            }
+           }
+        }
+    }
+            .signup-options{
+               background-color:  rgb(68, 68, 68);
+              ul{
+                  li{
+                    color:white;
+                  }
+              }
+            }
+  }
+  .sidebar.open{
+    transform: translateX(0);
+    height:100%;
+    position: absolute;
+    z-index: 444;
+  }
+  .sidebar-close-button{
+    font-weight: bold;
+    border: none!important;
+    padding: .5rem;
+    font-size: 3rem;
+    padding-top: 0;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: 0;
+  }
+//   ICONS
+.header-mobile-view{
+    .header-content{
+        width: 100%;
+        margin:0;
+        .logo{
+            .logo-img{
+                width:140px;
+            }
+        }
+        .cart-icon.col-3 {
+            color:#da291c;
+            font-size: 20px;
+            padding-top: 4px;
+            i.fa.fa-shopping-basket {
+                padding-left: 6px;
+                span{
+                    background: #da291c;
+                     font-size: .9rem;
+                    color: #fff;
+                    width: auto;
+                    height: auto;
+                    margin: 0;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -1px;
+                    right: 20px;
+                    padding: 6px!important;
+                    font-weight: 400;
+                    line-height: .7;
+                }
+            }
+        }
+    }
+}
+
+// usna
+
+i.fa.fa-plus {
+    float: right;
+}
+i.fa.fa-minus {
+    float: right;
+}
+i.fa.fa-user {
+    margin: 4px;
+}
+

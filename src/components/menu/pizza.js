@@ -15,6 +15,7 @@ import Img13 from '../../Assets//images/pizza13.jpg'
 import Img14 from '../../Assets//images/pizza14.jpg'
 import Img15 from '../../Assets//images/pizza15.jpg'
 import '../Deals/midnight.scss'
+import '../Deals/menuresponsive.scss'
 export default () => {
     return (
         <>

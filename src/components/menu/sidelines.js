@@ -7,6 +7,7 @@ import Img5 from '../../Assets//images/sidelines5.jpg'
 import Img6 from '../../Assets//images/sidelines6.jpg'
 import Img7 from '../../Assets//images/sidelines7.jpg'
 import '../Deals/midnight.scss'
+import '../Deals/menuresponsive.scss'
 export default () => {
     return (
         <>

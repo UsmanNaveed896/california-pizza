@@ -34,7 +34,7 @@ function App() {
     <Route path='/desserts/'  component={Desserts}/>
     <Route path='/signup/'  component={Register}/>
     <Route path='/login/'  component={Login}/>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter>
     </>
   );
