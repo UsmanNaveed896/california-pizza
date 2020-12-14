@@ -1,7 +1,23 @@
+import Axios from 'axios';
 import React from 'react'
+import { useState } from 'react'
+import { apiPath } from '../../cofig';
 import '../login/login.scss'
 
 export default () => {
+    const [email,setEmail]=useState();
+    const[password,setPassword]=useState();
+    const onSubmit=(e)=>{
+        e.preventDefault()
+        let payLoad={
+            email:email,
+            password:password,
+        }
+        Axios.post(apiPath +"/signin/Restowner" , payLoad).then (Response=>{
+            console.log("login",Response)
+            localStorage.setItem("token",Response && Response.data && Response.data.token)
+        })
+        }
     return (
         <>
      <div className="user-login col-md-10 row ">
@@ -12,12 +28,12 @@ export default () => {
                     <p> Enter your e-mail address and password to log in.</p>
                     </div>
                     <div className="user-form ">
-                        <form action="">
+                        <form >
                             <label for="fname"></label>
-                            <input type="text" id="fname" name="Email*" placeholder="Email" />
-                            <input type="text" id="lname" name="Password" placeholder="Password" />
+                            <input type="text" id="fname" name="Email*" placeholder="Email" onChange={(e)=>setEmail(e.target.value)} />
+                            <input type="password" id="lname" name="Password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)} />
                             <p>Forgot Password?</p>
-                            <input type="submit" value="SIGN IN" disabled />
+                            <input type="submit" value="SIGN IN" onClick={(e)=>onSubmit(e)} />
                         </form>
                     </div>
                     </div>

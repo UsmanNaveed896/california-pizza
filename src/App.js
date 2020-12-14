@@ -14,12 +14,15 @@ import Beverages from '../src/components/menu/Beverages'
 import Desserts from '../src/components/menu/desserts'
 import Register from '../src/components/signup/resgister'
 import Login from '../src/components/login/login'
+import Get from '../src/components//apiget/get'
 import Footer from '../src/components/footer/footer'
+
 
 function App() {
   return (
     <>
     <BrowserRouter>
+    {/* <Get/> */}
     <Header/>
     <Route path='/' exact={true} component={Homepage}/>
     <Route path='/deal1/'  component={Midnight}/>
@@ -34,7 +37,7 @@ function App() {
     <Route path='/desserts/'  component={Desserts}/>
     <Route path='/signup/'  component={Register}/>
     <Route path='/login/'  component={Login}/>
-    {/* <Footer/> */}
+    <Footer/>
     </BrowserRouter>
     </>
   );
