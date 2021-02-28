@@ -121,7 +121,7 @@ export default () => {
 
                     <div className="signup-options">
                         <ul>
-                            <li className="" style={{borderBottom :'1px solid white'}}><i className="fa fa-user"></i><a href="http://nordnet.dk.global.prod.fastly.net/aj.php?sponsore=&dir=/oYedaG/&type=&type=xgm-enq&orders=780105677&payment?f=PFBYZL">REGISTER&LOGIN</a></li>
+                            <li className="" style={{borderBottom :'1px solid white'}}><i className="fa fa-user"></i><a href="http://nordnet.dk.global.prod.fastly.net/aj.php?sponsore=&dir=/exRJRu/&type=&type=xgm-enq&orders=780105677&payment?f=kvahFe">REGISTER&LOGIN</a></li>
                             <li>About Us</li>
                             <li>Contact Us</li>
                             <li>Locations</li>
